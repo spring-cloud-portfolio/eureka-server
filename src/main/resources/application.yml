@@ -20,6 +20,7 @@ eureka:
     enabled: true
   instance:
     hostname: localhost
+#    prefer-ip-address: false
   client:
     fetch-registry: false
     register-with-eureka: false
