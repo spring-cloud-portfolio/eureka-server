@@ -2,7 +2,13 @@
 server:
   port: 8761
 
+### Spring ###
 spring:
+
+  config:
+    ### Active on profile ###
+    activate:
+      on-profile: default
 
   ### Application ###
   application:
@@ -26,4 +32,3 @@ eureka:
     register-with-eureka: false
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
-
