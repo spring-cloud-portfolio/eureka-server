@@ -33,6 +33,8 @@ dependencyManagement {
 
 bootBuildImage {
     publish = true
+    cleanCache = false
+    environment = ["BP_JVM_VERSION"   : "15.*"]
     imageName = "cloudportfolio/${project.name}-${dockerImageProfile}"
     docker {
         publishRegistry {
