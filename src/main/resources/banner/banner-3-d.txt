@@ -7,6 +7,7 @@ ${AnsiColor.CYAN}
  ##:::::::##:::: ##:##::. ##::##:::::::##:. ##::##.... ##::::::::::::'##::: ##:##:::::::##::. ##::. ## ##:::##:::::::##::. ##::
  ########. #######::##:::. ##:########:##::. ##:##:::: ##::::::::::::. ######::########:##:::. ##::. ###::::########:##:::. ##:
 ........::.......::..:::::..:........:..::::..:..:::::..::::::::::::::......::........:..:::::..::::...::::........:..:::::..::
-${AnsiColor.DEFAULT}
-:: Spring Boot  ::                                                                        ${spring-boot.formatted-version}
-:: Developed by ::                                                                         (Serhey Doroshenko)
+${AnsiColor.YELLOW}
+:: Eureka server ::                                                                                      ::${application.formatted-version}
+:: Spring Boot   ::                                                                                      ::${spring-boot.formatted-version}
+:: Developed by  ::                                                                                      :: (Serhey Doroshenko)${AnsiColor.DEFAULT}
