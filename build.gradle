@@ -9,6 +9,12 @@ group = 'com.doroshenko.serhey'
 
 sourceCompatibility = '11'
 
+bootJar {
+    manifest {
+        attributes("Implementation-Title": project.name, "Implementation-Version": project.version)
+    }
+}
+
 repositories {
     mavenCentral()
     maven { url 'https://repo.spring.io/milestone' }
