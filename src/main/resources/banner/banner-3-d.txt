@@ -9,5 +9,5 @@ ${AnsiColor.CYAN}:########:. #######:: ##:::. ##: ########: ##::. ##: ##:::: ##:
 ${AnsiColor.CYAN}........:::.......:::..:::::..::........::..::::..::..:::::..::::::......:::........::..:::::..:::::...:::::........::..:::::..::
 ${AnsiColor.DEFAULT}
 :: Spring Boot    ::                                                                      ${spring-boot.formatted-version}
-:: Developing by  ::                                                                       (Serhey Doroshenko)
+:: Developed by  ::                                                                       (Serhey Doroshenko)
 ${AnsiColor.DEFAULT}
