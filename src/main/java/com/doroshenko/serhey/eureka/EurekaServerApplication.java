@@ -4,9 +4,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
-@SuppressWarnings("java:S1191")
-@SpringBootApplication(proxyBeanMethods = false)
 //@NativeHint(
 //        options = {"--enable-url-protocols=http"},
 //        proxies = {
@@ -49,6 +46,8 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 //                @TypeHint(typeNames = "org.springframework.boot.autoconfigure.freemarker.FreeMarkerTemplateAvailabilityProvider$FreeMarkerTemplateAvailabilityProperties", access = AccessBits.ALL),
 //        }
 //)
+@EnableEurekaServer
+@SpringBootApplication(proxyBeanMethods = false)
 public class EurekaServerApplication {
 
     public static void main(String[] args) {
