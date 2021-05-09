@@ -1,7 +1,7 @@
 plugins {
     id 'java'
     id 'org.springframework.boot' version '2.4.5'
-    id 'org.springframework.experimental.aot' version '0.9.2'
+//    id 'org.springframework.experimental.aot' version '0.9.2'
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
 }
 
@@ -33,7 +33,7 @@ dependencies {
     implementation('org.glassfish.jaxb:jaxb-runtime')
     implementation('com.github.ben-manes.caffeine:caffeine')
     implementation('org.springframework.boot:spring-boot-starter-security')
-    implementation("org.springframework.experimental:spring-native:$springNativeVersion")
+//    implementation("org.springframework.experimental:spring-native:$springNativeVersion")
     implementation('org.springframework.cloud:spring-cloud-starter-netflix-eureka-server')
 }
 
