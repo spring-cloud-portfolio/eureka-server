@@ -22,12 +22,12 @@ spring:
 ### Eureka ###
 eureka:
   dashboard:
-    enabled: true
+    enabled: on
   instance:
     hostname: localhost
   #    prefer-ip-address: false
   client:
-    fetch-registry: false
-    register-with-eureka: false
+    fetch-registry: off
+    register-with-eureka: off
     service-url:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
